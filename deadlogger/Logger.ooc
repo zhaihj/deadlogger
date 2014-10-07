@@ -33,7 +33,7 @@ Logger: class {
         } else {
             if(!subloggers contains?(path)) {
                 if(!create) {
-                    NoSuchLoggerError new(This, "No such logger: '%s'" format(path)) throw()
+                    NoSuchLoggerError new("No such logger: '%s'" format(path)) throw()
                 } else {
                     logger := Logger new(path, this)
                     subloggers put(path, logger)
