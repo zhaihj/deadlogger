@@ -1,4 +1,4 @@
-import deadlogger/Logger
+import Logger
 
 Log: class {
     root := static Logger new("")

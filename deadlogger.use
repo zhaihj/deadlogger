@@ -1,3 +1,4 @@
 Name: deadlogger
 Description: A dead (-simple) logging package for ooc
-SourcePath: .
+SourcePath: deadlogger
+Imports: Log, Handler, Level, Formatter, Filter

@@ -1,7 +1,7 @@
 import structs/[ArrayList,HashMap]
 import text/StringTokenizer
 
-import deadlogger/[Level, Handler]
+import [Level, Handler]
 
 NoSuchLoggerError: class extends Exception {
     init: func ~withMsg (.message) {

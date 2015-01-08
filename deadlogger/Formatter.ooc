@@ -1,7 +1,7 @@
 import text/[StringTemplate]
 import structs/HashMap
 import os/Time
-import deadlogger/[Logger, Level, Handler]
+import [Logger, Level, Handler]
 
 Formatter: abstract class {
     format: abstract func (handler: Handler, logger: Logger, level: Int, emitter: Logger, msg: String) -> String

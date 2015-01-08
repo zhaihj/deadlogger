@@ -1,4 +1,4 @@
-import deadlogger/[Formatter, Filter, Logger, Level]
+import [Formatter, Filter, Logger, Level]
 
 Handler: abstract class {
     handle: abstract func (logger: Logger, level: Int, emitter: Logger, msg: String) -> Bool

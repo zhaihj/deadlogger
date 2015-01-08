@@ -1,4 +1,4 @@
-import deadlogger/[Logger, Handler]
+import [Logger, Handler]
 
 Filter: abstract class {
     isAccepted: abstract func (handler: Handler, logger: Logger, level: Int, emitter: Logger, msg: String) -> Bool
